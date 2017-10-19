@@ -1,0 +1,12 @@
+{
+  "User": {
+    "Id": 205,
+    "Username": "kddean",
+    "Name": "Khadeidre",
+    "Email": "u1149097@utah.edu",
+    "AvatarUrl": "https://secure.gravatar.com/avatar/b1ea81641b3864b48ecbea6a1a223abd?s=80&d=identicon",
+    "PrivateToken": "fqXoMv14CzbamHZrb8dN",
+    "Host": "https://eae-git.eng.utah.edu",
+    "TwoFactorEnabled": false
+  }
+}
