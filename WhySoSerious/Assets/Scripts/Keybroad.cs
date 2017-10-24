@@ -4,38 +4,43 @@ using UnityEngine;
 
 public class Keybroad : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        float speed = 0.1f;
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+    float moveSpeed = 5.0f;
+    float rotateSpeed = 60f;
+
+
+    // Use this for initialization
+    void Start()
+    {
+       
+    }
+
+
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        Movement();
+    }
+
+    void Movement()
+    {
+
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            Vector3 position = this.transform.position;
-            this.transform.Rotate(Vector3.left * Time.deltaTime * speed);
-            position.x = position.x - speed;
-            this.transform.position = position;
+            this.transform.Rotate(new Vector3(0, -rotateSpeed * Time.deltaTime, 0));
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            Vector3 position = this.transform.position;
-            position.x = position.x + speed;
-            this.transform.position = position;
+            this.transform.Rotate(new Vector3(0, rotateSpeed * Time.deltaTime, 0));
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            Vector3 position = this.transform.position;
-            position.z = position.z + speed;
-            this.transform.position = position;
+            this.transform.Translate(new Vector3(0, 0, moveSpeed * Time.deltaTime));
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
-            Vector3 position = this.transform.position;
-            position.z = position.z - speed;
-            this.transform.position = position;
+            this.transform.Translate(new Vector3(0, 0, -moveSpeed * Time.deltaTime));
         }
     }
 }
