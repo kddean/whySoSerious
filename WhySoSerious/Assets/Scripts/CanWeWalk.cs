@@ -6,7 +6,7 @@ public class CanWeWalk : MonoBehaviour {
 
     Animator anim;
     int walk = Animator.StringToHash("Walk");
-    int stand = Animator.StringToHash("Base Layer.Stand");
+    int stand = Animator.StringToHash("Base Layer.Standing@loop");
 
 
 	// Use this for initialization
@@ -17,16 +17,18 @@ public class CanWeWalk : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         float move = Input.GetAxis("Vertical");
-        anim.SetFloat("Speed", move);
+        anim.SetFloat("WalkSpeed", move);
 
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            anim.SetTrigger("walk");
+            anim.SetBool("Walk", true);
+            anim.SetTrigger(walk);
+            //anim.Play("Walking@loop");
         }
 	}
 
-    void OnAnimatorMove()
+   /* void OnAnimatorMove()
     {
         Animator animator = GetComponent<Animator>();
         if (animator)
@@ -35,5 +37,5 @@ public class CanWeWalk : MonoBehaviour {
             newPosition.z += animator.GetFloat("Runspeed") * Time.deltaTime;
             transform.position = newPosition;
         }
-    }
+    }*/
 }

@@ -80,8 +80,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CanWeWalk.cs" />
     <Compile Include="Assets\Scripts\Collisions.cs" />
+    <Compile Include="Assets\Scripts\Highlight.cs" />
     <Compile Include="Assets\Scripts\Keybroad.cs" />
     <Compile Include="Assets\Scripts\MoveClick.cs" />
+    <Compile Include="Assets\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Player2.cs" />
     <Compile Include="Assets\Scripts\SpinningCube.cs" />
@@ -96,6 +98,8 @@
   <ItemGroup>
     <None Include="Assets\Optimize SDKohaku-Chanz\Readme_Optimize_SD Kohaku-Chanz.txt" />
     <None Include="Assets\Optimize SDKohaku-Chanz\Shader\readme.txt" />
+    <None Include="Assets\Shader\$self_illuminated_outlined_diffuse_113.shader" />
+    <None Include="Assets\Shader\OutlinedSilhouetted Diffuse.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
