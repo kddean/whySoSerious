@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Keybroad : MonoBehaviour {
 
-    float moveSpeed = 5.0f;
+    float moveSpeed = 1.0f;
     float rotateSpeed = 60f;
 
 

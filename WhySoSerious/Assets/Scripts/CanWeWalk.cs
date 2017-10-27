@@ -20,11 +20,17 @@ public class CanWeWalk : MonoBehaviour {
         anim.SetFloat("WalkSpeed", move);
 
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
         {
             anim.SetBool("Walk", true);
             anim.SetTrigger(walk);
             //anim.Play("Walking@loop");
+        }
+
+        else
+        {
+            anim.SetBool("Walk", false);
+            anim.SetTrigger(stand);
         }
 	}
 

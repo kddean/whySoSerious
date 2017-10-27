@@ -76,8 +76,16 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
+    <Reference Include="Cradle">
+      <HintPath>Assets\Cradle\Cradle.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Cradle\Examples\Clockwork\Clockwork.cs" />
+    <Compile Include="Assets\Cradle\TwineTextPlayer\Core\TwineTextPlayer.cs" />
+    <Compile Include="Assets\Cradle\TwineTextPlayer\Core\TwineTextPlayerElement.cs" />
+    <Compile Include="Assets\Cradle\TwineTextPlayer\Core\WrapLayoutGroup.cs" />
+    <Compile Include="Assets\Cradle\TwineTextPlayer\Core\WrapLineBreak.cs" />
     <Compile Include="Assets\Scripts\CanWeWalk.cs" />
     <Compile Include="Assets\Scripts\Collisions.cs" />
     <Compile Include="Assets\Scripts\Highlight.cs" />
@@ -88,6 +96,7 @@
     <Compile Include="Assets\Scripts\Player2.cs" />
     <Compile Include="Assets\Scripts\Popup.cs" />
     <Compile Include="Assets\Scripts\SpinningCube.cs" />
+    <Compile Include="Assets\Scripts\TouchHighlight.cs" />
     <Compile Include="Assets\Scripts\TouchTest.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
@@ -97,6 +106,7 @@
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Cradle\Editor\ThirdParty\PhantomJS\third-party.txt" />
     <None Include="Assets\Optimize SDKohaku-Chanz\Readme_Optimize_SD Kohaku-Chanz.txt" />
     <None Include="Assets\Optimize SDKohaku-Chanz\Shader\readme.txt" />
     <None Include="Assets\Shader\$self_illuminated_outlined_diffuse_113.shader" />
