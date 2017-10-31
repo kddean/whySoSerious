@@ -91,10 +91,12 @@
     <Compile Include="Assets\Scripts\Highlight.cs" />
     <Compile Include="Assets\Scripts\Keybroad.cs" />
     <Compile Include="Assets\Scripts\MoveClick.cs" />
+    <Compile Include="Assets\Scripts\Open.cs" />
     <Compile Include="Assets\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Player2.cs" />
     <Compile Include="Assets\Scripts\Popup.cs" />
+    <Compile Include="Assets\Scripts\Scene Change.cs" />
     <Compile Include="Assets\Scripts\SpinningCube.cs" />
     <Compile Include="Assets\Scripts\TouchHighlight.cs" />
     <Compile Include="Assets\Scripts\TouchTest.cs" />

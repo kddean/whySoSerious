@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: bf41d6bf8465ace4f9b2f626abc6f1d0
+timeCreated: 1509413096
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: curtain
+    100004: curtain_tube
+    100006: curtain_tube1
+    100008: group
+    100010: group1
+    100012: hand_soap
+    100014: light1
+    100016: light2
+    100018: pasted__ambientLight2
+    100020: pasted__polySurface103
+    100022: pasted__polySurface176
+    100024: pasted__polySurface177
+    100026: pCube10
+    100028: pCube11
+    100030: pCube12
+    100032: pCube13
+    100034: pCube14
+    100036: pCube15
+    100038: pCube16
+    100040: pCube17
+    100042: pCube18
+    100044: pCube19
+    100046: pCube20
+    100048: pCube21
+    100050: pCube22
+    100052: pCube6
+    100054: pCube6 1
+    100056: pCube7
+    100058: pCube7 1
+    100060: pCube8
+    100062: pCube9
+    100064: pCylinder10
+    100066: pCylinder11
+    100068: pCylinder12
+    100070: pCylinder16
+    100072: pCylinder3
+    100074: pCylinder4
+    100076: pCylinder5
+    100078: pCylinder8
+    100080: pPipe1
+    100082: room
+    100084: rug
+    100086: toilet1
+    100088: toilet:ambientLight1
+    100090: toilet:pCube1
+    100092: toilet:pCube2
+    100094: toilet:pCube3
+    100096: tub
+    100098: vanity_and_sink
+    400000: //RootNode
+    400002: curtain
+    400004: curtain_tube
+    400006: curtain_tube1
+    400008: group
+    400010: group1
+    400012: hand_soap
+    400014: light1
+    400016: light2
+    400018: pasted__ambientLight2
+    400020: pasted__polySurface103
+    400022: pasted__polySurface176
+    400024: pasted__polySurface177
+    400026: pCube10
+    400028: pCube11
+    400030: pCube12
+    400032: pCube13
+    400034: pCube14
+    400036: pCube15
+    400038: pCube16
+    400040: pCube17
+    400042: pCube18
+    400044: pCube19
+    400046: pCube20
+    400048: pCube21
+    400050: pCube22
+    400052: pCube6
+    400054: pCube6 1
+    400056: pCube7
+    400058: pCube7 1
+    400060: pCube8
+    400062: pCube9
+    400064: pCylinder10
+    400066: pCylinder11
+    400068: pCylinder12
+    400070: pCylinder16
+    400072: pCylinder3
+    400074: pCylinder4
+    400076: pCylinder5
+    400078: pCylinder8
+    400080: pPipe1
+    400082: room
+    400084: rug
+    400086: toilet1
+    400088: toilet:ambientLight1
+    400090: toilet:pCube1
+    400092: toilet:pCube2
+    400094: toilet:pCube3
+    400096: tub
+    400098: vanity_and_sink
+    2300000: curtain
+    2300002: curtain_tube
+    2300004: curtain_tube1
+    2300006: pasted__polySurface103
+    2300008: pasted__polySurface176
+    2300010: pasted__polySurface177
+    2300012: pCube10
+    2300014: pCube11
+    2300016: pCube12
+    2300018: pCube13
+    2300020: pCube14
+    2300022: pCube15
+    2300024: pCube16
+    2300026: pCube17
+    2300028: pCube18
+    2300030: pCube19
+    2300032: pCube20
+    2300034: pCube21
+    2300036: pCube22
+    2300038: pCube6
+    2300040: pCube6 1
+    2300042: pCube7
+    2300044: pCube7 1
+    2300046: pCube8
+    2300048: pCube9
+    2300050: pCylinder10
+    2300052: pCylinder11
+    2300054: pCylinder12
+    2300056: pCylinder16
+    2300058: pCylinder3
+    2300060: pCylinder4
+    2300062: pCylinder5
+    2300064: pCylinder8
+    2300066: pPipe1
+    2300068: room
+    2300070: rug
+    2300072: toilet:pCube1
+    2300074: toilet:pCube2
+    2300076: toilet:pCube3
+    3300000: curtain
+    3300002: curtain_tube
+    3300004: curtain_tube1
+    3300006: pasted__polySurface103
+    3300008: pasted__polySurface176
+    3300010: pasted__polySurface177
+    3300012: pCube10
+    3300014: pCube11
+    3300016: pCube12
+    3300018: pCube13
+    3300020: pCube14
+    3300022: pCube15
+    3300024: pCube16
+    3300026: pCube17
+    3300028: pCube18
+    3300030: pCube19
+    3300032: pCube20
+    3300034: pCube21
+    3300036: pCube22
+    3300038: pCube6
+    3300040: pCube6 1
+    3300042: pCube7
+    3300044: pCube7 1
+    3300046: pCube8
+    3300048: pCube9
+    3300050: pCylinder10
+    3300052: pCylinder11
+    3300054: pCylinder12
+    3300056: pCylinder16
+    3300058: pCylinder3
+    3300060: pCylinder4
+    3300062: pCylinder5
+    3300064: pCylinder8
+    3300066: pPipe1
+    3300068: room
+    3300070: rug
+    3300072: toilet:pCube1
+    3300074: toilet:pCube2
+    3300076: toilet:pCube3
+    4300000: room
+    4300002: pCube6
+    4300004: pCube7
+    4300006: pCube6
+    4300008: pCube7
+    4300010: pCube8
+    4300012: pCylinder3
+    4300014: pCylinder4
+    4300016: curtain_tube
+    4300018: curtain
+    4300020: toilet:pCube1
+    4300022: toilet:pCube2
+    4300024: toilet:pCube3
+    4300026: pCylinder8
+    4300028: pCube10
+    4300030: rug
+    4300032: pCube11
+    4300034: pCube12
+    4300036: pCube13
+    4300038: pCube14
+    4300040: pCube15
+    4300042: pCube16
+    4300044: pCube18
+    4300046: pCylinder10
+    4300048: pCylinder11
+    4300050: pCube17
+    4300052: pCube19
+    4300054: pCylinder12
+    4300056: pCube20
+    4300058: pCube22
+    4300060: pCube21
+    4300062: pCylinder16
+    4300064: curtain_tube1
+    4300066: pPipe1
+    4300068: pCube9
+    4300070: pCylinder5
+    4300072: pasted__polySurface176
+    4300074: pasted__polySurface177
+    4300076: pasted__polySurface103
+    9500000: //RootNode
+    10800000: toilet:ambientLight1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

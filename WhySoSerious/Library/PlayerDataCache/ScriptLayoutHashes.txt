@@ -103,6 +103,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+940a3650dc0f7e948aa0fdde1eb251de Assembly-CSharp.dll:.TouchHighlight
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -111,9 +112,12 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Keybroad
 e3bfb26d2f8a8a39f24d324d3d226cc1 Assembly-CSharp.dll:CameraController.CameraController
 0de88d96fd292d919299f7af4af26e8d Assembly-CSharp.dll:.IdleChanger
+cb96423acad428464f1ee46b50b36df5 Assembly-CSharp.dll:.TwineTextPlayer
+11cea35b54a5153adbed7f7ff07c6754 Assembly-CSharp.dll:.WrapLayoutGroup
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Outline
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Highlight
 cb004cde9e430ca780a2fda6387826da Assembly-CSharp.dll:.SpinningCube
+024e89b1914ee02a4dea9e8d38686c7b Assembly-CSharp.dll:.Clockwork
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Collisions
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -144,11 +148,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 323ce02cf17503d8b367b67fb0c4247d Assembly-CSharp.dll:.MoveClick
 a6333fe17f3ba5399bffd336348da6c8 Assembly-CSharp.dll:.FaceUpdate
-00a151844dbacabd8a6d3807a4d0f53d Assembly-CSharp.dll:.UnityChanControlScriptWithRgidBody
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneLoader
-940a3650dc0f7e948aa0fdde1eb251de Assembly-CSharp.dll:.TouchHighlight
-024e89b1914ee02a4dea9e8d38686c7b Assembly-CSharp.dll:.Clockwork
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.WrapLineBreak
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TwineTextPlayerElement
-cb96423acad428464f1ee46b50b36df5 Assembly-CSharp.dll:.TwineTextPlayer
-11cea35b54a5153adbed7f7ff07c6754 Assembly-CSharp.dll:.WrapLayoutGroup
+00a151844dbacabd8a6d3807a4d0f53d Assembly-CSharp.dll:.UnityChanControlScriptWithRgidBody
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.WrapLineBreak
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneLoader
