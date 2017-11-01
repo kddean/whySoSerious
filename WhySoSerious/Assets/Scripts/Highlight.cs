@@ -29,7 +29,8 @@ public class Highlight: MonoBehaviour {
         if (touching)
         {
             interval += Time.deltaTime;
-            material.color = Color.Lerp(normalColor, highlightColor, interval);
+            //material.color = Color.Lerp(normalColor, highlightColor, interval);
+            material.color = highlightColor;
         }
         else
         {
