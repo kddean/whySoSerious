@@ -5,7 +5,7 @@ using UnityEngine;
 public class CanWeWalk2 : MonoBehaviour {
 
 	Animator anim;
-	int walk = Animator.StringToHash("Walk");
+	int walk = Animator.StringToHash("Walking");
 	int stand = Animator.StringToHash("Base Layer.Idle");
 
 

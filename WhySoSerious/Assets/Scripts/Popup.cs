@@ -9,6 +9,7 @@ public class Popup : MonoBehaviour {
     public GameObject panel;
     public GameObject text;
     bool t;
+    public float time = 50f;
 
 	// Use this for initialization
 	void Start () {
@@ -19,8 +20,7 @@ public class Popup : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update () {    
 	}
 
     private void OnMouseDown()
@@ -30,17 +30,19 @@ public class Popup : MonoBehaviour {
             t = true;
             ui.SetActive(true);
             //panel.SetActive(true);
-            popup.SetActive(true);
-            text.SetActive(true);
+            //popup.SetActive(true);
+            //text.SetActive(true);
         }
         else
         {
             t = false;
             ui.SetActive(false);
             //panel.SetActive(false);
-            popup.SetActive(false);
-            text.SetActive(false);
+            //popup.SetActive(false);
+            //text.SetActive(false);
         }
 
+
     }
+
 }

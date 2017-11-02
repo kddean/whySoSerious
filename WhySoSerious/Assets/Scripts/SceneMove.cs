@@ -20,7 +20,12 @@ public class SceneMove : MonoBehaviour {
 
     public void LoadScreen(string scene)
     {
-        if (sceneName == "Main")
+        if( sceneName == "Main Menu")
+        {
+            sceneChange = "Main";
+            SceneManager.LoadScene(sceneChange, LoadSceneMode.Single);
+        }
+        else if (sceneName == "Main")
         {
             sceneChange = "Bathroom";
             SceneManager.LoadScene(sceneChange, LoadSceneMode.Single);

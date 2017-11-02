@@ -4,7 +4,49 @@ timeCreated: 1509476182
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Girl_Model:pCube5
+    100004: Girl_Model:pCube7
+    100006: Girl_Model:pPlane1
+    100008: imagePlane1
+    100010: imagePlane2
+    100012: pCube1
+    100014: pCube3
+    100016: pCube4
+    100018: pCube6
+    100020: transform2
+    100022: transform3
+    100024: transform4
+    400000: //RootNode
+    400002: Girl_Model:pCube5
+    400004: Girl_Model:pCube7
+    400006: Girl_Model:pPlane1
+    400008: imagePlane1
+    400010: imagePlane2
+    400012: pCube1
+    400014: pCube3
+    400016: pCube4
+    400018: pCube6
+    400020: transform2
+    400022: transform3
+    400024: transform4
+    2300000: Girl_Model:pCube5
+    2300002: Girl_Model:pCube7
+    2300004: Girl_Model:pPlane1
+    2300006: pCube3
+    2300008: pCube6
+    3300000: Girl_Model:pCube5
+    3300002: Girl_Model:pCube7
+    3300004: Girl_Model:pPlane1
+    3300006: pCube3
+    3300008: pCube6
+    4300000: pCube3
+    4300002: pCube6
+    4300004: Girl_Model:pPlane1
+    4300006: Girl_Model:pCube5
+    4300008: Girl_Model:pCube7
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
